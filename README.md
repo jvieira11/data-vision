@@ -1,16 +1,21 @@
 # DataVision
 
-Projeto de análise da dados.
+Projeto de análise de dados.
 
 ## Funcionalidade planejadas
 
 - [ ] Importação e leitura de arquivos CSV e Excel
+- [ ] Tratamente e filtragem de dados
+- [ ] Comparação de arquivos, linhas e colunas dos arquivos CSV e Excel
+- [ ] Dashboard dinâmico para fácil compreensão dos dados presentes
+- [ ] Exportação da análise e filtragem dos arquivos utilzados
 
 ## Tecnologias
 
 - **Back-end:** Python
 - **Framework Web:** FastAPI
-- **Leitor CSV/Excel:** Pandas + openpyxl + Pydantic
+- **Leitor CSV/Excel:** Pandas + openpyxl
+- **Validação de dados:** Pydantic
 - **ORM:** SQLAlchemy
 - **Versionamento de mudanças:** Alembic
 - **Banco relacional:** PostgreSQL
@@ -20,9 +25,8 @@ Projeto de análise da dados.
 - **Tipagem Front:** TypeScript
 - **Estilização:** Tailwind CSS
 - **Gráficos em React:** Recharts
-- **Onde irá funcionar:** Docker / Compose
-- **Tipagem Front:** TypeScript
-- **Versionamento e portifólio:** Git / GitHub
+- **Package:** Docker / Compose
+- **Versionamento e portifolio:** Git / GitHub
 
 ## Status
 

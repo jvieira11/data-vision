@@ -1,6 +1,6 @@
 # ---------- Python ----------
 .venv/
-__pyache__/
+__pycache__/
 *.pyc
 .pytest_cache/
 
@@ -16,4 +16,4 @@ backend/storage/
 
 # ---------- Sistem Operacional / Editor ----------
 Thumbs.db
-.Ds_Store
+.DS_Store
