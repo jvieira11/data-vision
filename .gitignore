@@ -17,3 +17,6 @@ backend/storage/
 # ---------- Sistem Operacional / Editor ----------
 Thumbs.db
 .DS_Store
+
+# ---------- Editor ----------
+.vscode/
