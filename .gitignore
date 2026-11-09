@@ -1,0 +1,19 @@
+# ---------- Python ----------
+.venv/
+__pyache__/
+*.pyc
+.pytest_cache/
+
+# ---------- Node / Next.js ----------
+node_modules/
+.next/
+
+# ---------- Variáveis do ambiente (segredos) ----------
+.env
+
+# ---------- Arquivos enviados pelos usuários ----------
+backend/storage/
+
+# ---------- Sistem Operacional / Editor ----------
+Thumbs.db
+.Ds_Store
