@@ -87,7 +87,7 @@ python -m pytest
 ```
 
 ```powershell
-git add
+git add .
 ```
 
 ```powershell
