@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest
+pytest[standard]==9.2.0
