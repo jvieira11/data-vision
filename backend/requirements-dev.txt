@@ -1,3 +1,2 @@
 -r requirements.txt
-pytest
-pytest[standard]==9.2.0
+pytest==9.2.0
