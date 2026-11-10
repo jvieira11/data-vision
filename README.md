@@ -9,6 +9,7 @@ Projeto de análise de dados.
 - [ ] Comparação de arquivos, linhas e colunas dos arquivos CSV e Excel
 - [ ] Dashboard dinâmico para fácil compreensão dos dados presentes
 - [ ] Exportação da análise e filtragem dos arquivos utilizados
+- [ ] Qualidade dos dados
 
 ## Tecnologias
 
@@ -28,16 +29,40 @@ Projeto de análise de dados.
 - **Contêineres:** Docker / Compose
 - **Versionamento e portifolio:** Git / GitHub
 
-## Como rodar
+# Como rodar
 
-- Backend:
-    - cd C:\dev\data-vision\backend
-    - .venv\Scripts\Activate.ps1
-    - fastapi dev app/main.py
+## Backend:
+```bash
+cd C:\dev\data-vision\backend
+```
 
-- Primeira vez em um novo computador:
-    - python -m venv .venv
-    - pip install -r requirements.txt
+```bash
+.venv\Scripts\Activate.ps1
+```
+
+```bash
+fastapi dev app/main.py
+```
+
+## Primeira vez em um novo computador:
+
+```bash 
+python -m venv .venv
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+## Como rodar os testes:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+```bash
+python -m pytest
+```
 
 ## Status
 
