@@ -29,39 +29,73 @@ Projeto de análise de dados.
 - **Contêineres:** Docker / Compose
 - **Versionamento e portifolio:** Git / GitHub
 
-# Como rodar
+## Como rodar
 
-## Backend:
-```bash
+### Backend:
+```powershell
 cd C:\dev\data-vision\backend
 ```
 
-```bash
+```powershell
 .venv\Scripts\Activate.ps1
 ```
 
-```bash
+```powershell
 fastapi dev app/main.py
 ```
 
-## Primeira vez em um novo computador:
+### Primeira vez em um novo computador:
 
-```bash 
+```powershell 
+cd backend
+```
+
+```powershell 
 python -m venv .venv
 ```
 
-```bash
+```powershell 
+.venv\Scripts\Activate.ps1
+```
+
+```powershell
 pip install -r requirements.txt
 ```
 
-## Como rodar os testes:
+### Como rodar os testes:
 
-```bash
+```powershell
 pip install -r requirements-dev.txt
 ```
 
-```bash
+```powershell
 python -m pytest
+```
+
+## Antes de commitar
+
+```powershell
+ruff check .
+```
+
+```powershell
+ruff format .
+```
+
+```powershell
+python -m pytest
+```
+
+```powershell
+git add
+```
+
+```powershell
+git diff --staged
+```
+
+```powershell
+git commit
 ```
 
 ## Status
