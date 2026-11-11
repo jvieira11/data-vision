@@ -20,6 +20,8 @@ Fase 1
 - Decorator/Wrapper é uma função que recebe outra função e a modifica ou a registra. Assim como utilizado no código, função @app.get("/health") envia a função ao FastAPI, que em seguida registra-o como o resposável pelo GET em /health.
 - Type hints, ou dicas de tipos, que serve para indicar os tipos dos dados das variáveis, ex.: str, float, int.
 - Depêndencias transitivas: é a dependência de uma dependência. Exemplo no projeto: FastAPI > Pydantic > annoted-types.
+- As rotas diferenciam letras maiúsculas e minúsculas(Ex.: /status e /Status)
+- "collected 0 itens" significa que o pytest não encontrou nenhum text.
 
 ## Problemas encontrados e resolvidos
 - Projeto dentro do OneDrive no início > movido para C:\dev, pois o OneDrive fica sempre querendo salvar coisas e empurrar atualizações nos arquivos, o que pode gerar travamentos e lentidão nos tais arquivos.
@@ -32,3 +34,5 @@ Fase 1
 - JavaScript
 - Pandas
 - Terminal
+- Verificar antes de commitar
+- Ler o código com atenção antes de responder
