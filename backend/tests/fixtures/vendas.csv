@@ -1,0 +1,8 @@
+id,cliente,estado,valor,data
+1,Ana Souza,SP,150.50,2026-01-10
+2,Bruno Lima,RJ,89.90,2026-01-11
+3,Carla Dias,sp,,2026-01-12
+4,Diego Alves,MG,1200.00,2026-01-13
+2,Bruno Lima,RJ,89.90,2026-01-11
+5,Elisa Rocha,,45.00,2026-01-15
+6,Fábio Nunes,SP,abc,2026-01-16
